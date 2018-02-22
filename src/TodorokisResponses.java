@@ -32,8 +32,8 @@ public void onMessageReceived(MessageReceivedEvent event){
 		int roll = rand.nextInt(6) + 1;
 		String response ="You rolled a" + " " + roll;
 		event.getTextChannel().sendMessage(response).complete();
-	}
+        }
 	
-}	
+    }	
 
 }
